@@ -1,0 +1,132 @@
+@media screen and (min-width: 1100px) {
+   
+  .facebookbelogo .iconbox .fa-bars{
+     display: none;
+  }
+}
+
+  @media screen and (max-width: 1099px) {
+    .facebookbelogo .iconbox .fa-bars{
+        display: block;
+     }
+    
+     .facebookbehome{
+        display: none !important;
+   }
+  }
+
+
+  @media screen and (max-width: 650px) {
+    .iconbox input{
+         display: none;
+    }
+    .facebookbenotivication .iconbox i{
+        font-size: 20px !important;
+        margin:2px !important;
+    }
+    .iconbox .fa-magnifying-glass {
+         text-align: center;
+          position: none !important;
+        
+    }
+  }
+
+  /* midbanner */
+
+  @media screen and (max-width: 1100px) {
+    .services-section{
+      width: 0;
+     display: none;
+      box-sizing: border-box;
+      height: 100%;
+      left: 0;
+      
+      overflow: hidden;
+ }
+ .postsection{
+      width: 60%;
+       position: relative;
+     
+      left: 0;
+ }
+ .setingmassenger{
+      position: fixed;
+      width: 40%;
+      right: 0;
+      
+ 
+ }
+  }
+
+  @media screen and (min-width: 1100px) {
+    .services-section{
+      width: 25%;
+      position: fixed;
+      box-sizing: border-box;
+      height: 100%;
+      left: 0;
+      background:rgb(241, 238, 238) !important;
+      overflow: hidden;
+ }
+ .postsection{
+      width: 48%;
+       position: relative;
+      overflow: hidden;
+      left: 28%;
+ }
+ .setingmassenger{
+      position: fixed;
+      width: 25%;
+    right: 0;
+      
+ 
+ }
+  }
+
+
+  @media screen and (max-width: 900px) {
+    .services-section{
+    
+      box-sizing: border-box;
+      height: 100%;
+      left: 0;
+      
+      overflow: hidden;
+ }
+ .postsection{
+      width: 100%;
+       position: relative;
+     
+      
+ }
+ .setingmassenger{
+     
+      
+      display: none;
+ }
+
+}
+
+  /* @media screen and (max-width: 900px) { */
+ .servicessectionr{
+      position: fixed;
+      width: 100%;
+     display: block;
+     background-color: rgb(228, 232, 235);
+      z-index: 10;
+  }
+
+
+
+  /* video style section */
+  .iconaction{
+     color: rgb(5, 92, 206) !important;
+  }
+   
+ .homeiconcolor{
+      color: transparent;
+ }
+  .videposectionbar{
+
+    display: none; 
+  }

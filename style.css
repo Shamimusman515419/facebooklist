@@ -1,0 +1,1059 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.navbersection {
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 3;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.iconber{
+     display: flex;
+     justify-content:space-between;
+     align-items: center;
+}
+.iconbox img{
+     width: 42px;
+     height: 42px;
+     border-radius: 50%;
+}
+.facebookbenotivication{
+     display: flex;
+      
+}
+.facebookbehome{
+    display: flex;
+   
+}
+.facebookbehome .iconbox{
+     position: relative;
+}
+.facebookbehome .active i{
+  color: rgb(5, 92, 206) !important;
+ 
+ }
+
+.facebookbelogo .iconbox input{
+     position: relative;
+     padding: 3px 5px;
+     color: white;
+     color: black;
+     text-align: center;
+    
+     border-radius: 10px;
+outline: none;
+
+  border: none;
+
+}
+.facebookbelogo .iconbox  .fa-magnifying-glass{
+     position: absolute;
+ left: 0;
+ top: 7%;
+ font-size: 24px;
+
+}
+
+.facebookbehome .iconbox i{
+     font-size: 30px;
+     margin: 0 20px;text-align: center;
+     color: black;
+     padding: 7px 8px;
+     opacity: 0.9;
+     border-radius: 7px;
+    width: 100%;
+}
+.facebookbehome .iconbox i:hover{
+       background-color:rgba(228, 220, 220, 0.986);
+}
+.iconbox .fa-facebook{
+ font-size: 45px;
+ color: rgba(4, 127, 199, 0.911);
+ margin-left:  10px;
+}
+.facebookbelogo{
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.facebookbenotivication .iconbox  i{
+     padding: 10px;
+     background-color: rgba(211, 209, 209, 0.781);
+     border-radius: 50%;
+     font-size: 20px;
+ color: black;
+
+}
+.facebookbenotivication .iconbox svg{
+    margin-top:7px ;
+    color: black;
+}
+
+.iconbox{
+    margin: 5px 17px;
+  
+     
+}
+.iconbox i{
+     font-size: 24px;
+     color: black;
+     cursor: pointer;
+}
+
+.iconbox .itagno{
+     position: relative;
+
+}
+.iconbox {
+     position: relative;
+
+}
+.iconbox .ablashsiv{
+     position: absolute;
+     top: -5px;
+     background-color: #e71212f6;
+     padding: 1px 7px;
+     border-radius: 15px;
+     right: -20px;
+     color: white;
+     font-size: 15px;
+     font-weight: 600;
+     font-family: 'Roboto', sans-serif;
+}
+
+body{
+     background:rgb(241, 238, 238) !important;
+}
+
+/* <!-- mid bannner section --> */
+
+.homebanner {
+     display: flex;
+     justify-content: space-between;
+     width: 100% !important;
+     position: relative;
+      top: 60px;
+      height: 100%;
+      
+}
+
+
+
+/* sercieercetion */
+.iconbxservices{
+       transition: 0.5s;
+       cursor: pointer;
+       padding: 4px 12px;
+       border-radius: 12px;
+}
+.iconbxservices:hover{
+     
+       background-color: rgb(180, 167, 167);
+}
+
+.iconbxservices img{
+      width: 40px;
+      height: 40px;
+
+      border-radius: 50%;
+}
+.iconbxservicesr img{ 
+width: 50px;
+ height: 50px;
+ border-radius: 4px;
+ 
+}
+ .iconbxservices{
+ margin: 18px 0;      display: flex;
+ align-items: center;
+}
+.iconbxservicesr {
+      display: flex;
+      margin: 15px 0;
+
+}
+.iconbxservicesr h4{
+      font-size: 14px;
+      margin-left: 7px;
+}
+.iconbxservices h4 {
+      
+     font-size: 18px;
+     margin-left: 10px;
+     color: black;
+     font-weight: 600;
+}
+.iconbxservices i{
+      font-size: 21px;
+}
+.iconbxservices .fa-user{
+   color: rgb(5, 5, 241);
+   
+}
+.iconbxservices  svg{
+      height: 22px;
+      color: rgb(0, 174, 255);
+      width: 22px;
+}
+.iconbxservices .fa-users{
+      color: rgb(36, 119, 3);
+}
+.iconbxservices .fa-bookmark{
+      color: rgb(214, 3, 186);
+}
+.iconbxservices .fa-virus-covid{
+      color: rgba(235, 11, 11, 0.911);
+}
+.iconbxservices .fa-store{
+      color: rgb(85, 8, 148);
+}
+.iconbxservices .fa-calendar{
+      color: rgb(182, 3, 93);
+} 
+.iconbxservices .fa-star{
+      color: rgb(252, 185, 1);
+}
+.iconbxservices .fa-gift{
+      color: rgb(53, 145, 0);
+       
+}
+.iconbxservices  .fa-record-vinyl{
+       
+      color: rgb(0, 75, 236);
+}
+.iconbxservices .fa-location-pin{
+      color: rgb(241, 0, 121);
+       
+}
+.sliderbarser{
+       display: none;
+}
+.seemore h4{
+       color: rgb(1, 141, 255) !important;
+}
+.seemore i{
+       margin-left: 5px;
+}
+.roted{
+       transform: rotate(180deg);
+}
+
+/* dflkadflkgf ppost */
+
+.stroyicon{
+       display: flex;
+       border-bottom: 1px solid rgb(168, 153, 153);
+       justify-content: space-around;
+}
+.topstorie{
+      background-color:#FFFFFF !important;
+       padding: 10px 3px;box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+       border-radius: 4px;
+}
+.stroybox {
+       display: flex;
+       background-color:#FFFFFF !important;
+    
+       overflow: hidden;
+}
+
+.storied{
+        height: 50px;
+        padding: 10px;
+        width: 200px;
+        opacity: 0.9;
+       text-align: center;border-radius: 10px;
+        cursor: pointer;
+}
+.acctivesrory{
+       color: rgb(3, 133, 255);
+}
+.storied:hover{
+      background: #f0ebeb;
+
+       
+ }
+.storied i,svg{
+       font-size: 22px;
+  margin-left: 7px;
+}
+
+.mystroy{
+       width: 150px;
+      height: 300px;
+ background-color: white;
+ border-radius: 15px !important;
+ box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.04);
+ text-align: center;
+ position: relative;
+ cursor: pointer;
+ padding: 1px;
+}
+.mystroy img{
+  border-radius:  15px 15px 0 0;
+  width: 150px;
+      height: 230px;
+}
+.mystroy i{
+     
+ position: relative;
+ bottom: 20px;
+
+ font-weight: bold;
+ color: white;
+  font-size: 20px;
+  padding: 5px;
+ background-color: rgb(0, 115, 247);
+ border-radius: 50%;
+ border: 5px solid white;
+
+}
+.mystroy p{
+    margin-top: -15px;
+       font-size: 14px;
+       color: black;
+       padding: 10px 0;
+}
+
+.publickstroy{
+      width: 630px;
+    
+}
+.piblicstroy {
+       position: relative;
+       width: 150px;
+       height: 300px;
+}
+.piblicstroy .mainimg{
+       position: relative;
+       width: 100%;
+       height: 100%;
+       border-radius: 10px;
+}
+.piblicstroy .stroyboxx{
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      top: 10px;
+      right: 90px;
+      border: 3px solid rgba(0, 0, 204, 0.993);
+      position: absolute;
+      z-index: 10;
+}
+
+
+
+
+.swiper-button-next,.swiper-button-prev{
+       background-color: rgb(240, 231, 231);
+      padding: 29px;
+      border-radius:50% ;
+}
+
+.piblicstroy  p{
+       font-size: 20px;
+  bottom: 2%;
+  margin-left: 5px;
+  font-weight: 400;
+  color: white;
+       position: absolute;
+}
+
+.post-textbox img{
+     width: 40px;
+     height: 40px;
+
+     border-radius: 50%;
+}
+.post-textbox{
+      display: flex;
+      align-items:center ;
+      position: relative;
+}
+.post-textbox input{
+      margin-left: 10px;
+      border-radius: 15px;
+      outline: none;
+      background:rgb(241, 238, 238) !important;
+ padding: 5px 8px;
+      width: 100%;
+      border: none;
+}
+.postbox{
+      background-color: white;
+      padding: 8px;box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+      margin: 10px 0;
+      border-radius: 5px;
+}
+.posticon{
+    
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+  width: 100%;
+  overflow: hidden;
+} 
+.postionbox{
+      display: flex;
+      cursor: pointer;
+      align-items: center;
+}
+.postionbox svg{
+      width: 35px;
+      color: rgb(255, 0, 0);
+      height: 35px;
+}
+.postionbox p{
+      margin-left:10px ;
+      margin-bottom: 10px;
+      font-size: 17px;
+      font-weight:600 ;
+      opacity: 0.9;
+}
+.postionbox i{
+      
+color: rgba(255, 209, 5, 0.979);
+font-size: 30px;
+
+}
+.postionbox .fa-image{
+      
+      color: rgba(32, 6, 230, 0.979);
+      font-size: 30px;
+      
+      }
+
+/* post section */
+
+.services-section {
+       max-width: 500px;
+       height: 100%;
+     transition: 0.5s;
+     
+       overflow-y:scroll ;
+}
+.services-section:hover{
+  
+       
+}
+.services-section::-webkit-scrollbar{
+        width: 6px;
+        height: 80px;
+        
+}
+.services-section::-webkit-scrollbar-track{
+       background: rgb(207, 199, 199);
+}
+.services-section::-webkit-scrollbar-thumb{
+      opacity: 0;
+       background: rgb(139, 132, 132);
+          opacity: 0;
+        border-radius: 10px;
+}
+
+
+.setingmassenger {
+      max-width: 500px;
+      height: 100%;
+     transition: 0.5s;
+      overflow-y:scroll ;
+}
+
+.setingmassenger::-webkit-scrollbar{
+       width: 6px;
+       height: 80px;
+}
+.setingmassenger::-webkit-scrollbar-track{
+      background: rgb(207, 199, 199);
+}
+.setingmassenger::-webkit-scrollbar-thumb{
+     
+      background: rgb(139, 132, 132);
+       
+       border-radius: 10px;
+}
+
+.pofile img{
+      width: 40px;
+      border-radius: 50%;
+}
+.mypostphoto{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+.pofile{
+      display: flex;
+      align-items: center;
+}
+.pofile p{
+      margin-left:10px ;
+      margin-top: 19px;
+      font-size: 16px;
+      font-weight: 500;
+      color: black;
+}
+.pofile p small{
+      opacity: 0.9;
+}
+.myposticon svg{
+      width: 30px;
+      height: 30px;
+}
+.myposticon small{
+      font-size: 20px;
+      margin-bottom: 20px;
+      font-weight: 500;
+}
+.mypostsection .heroimg{
+      width: 100%;
+      height: 600px;
+}
+.mypostsection {
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+}
+.comantbuttton {
+      display: flex;
+      justify-content: space-between;
+}
+.reattext .fa-heart{
+      font-size: 20px;
+      color: rgba(245, 2, 116, 0.993);
+      position: relative;
+}
+.reattext  .fa-thumbs-up{
+     font-size: 20px;
+     color: rgb(0, 117, 250);
+     position: relative;
+    right: 6px;
+}
+.reattext small{
+      font-size: 16px;
+}
+.commentbox{
+      display: flex;
+      justify-content: space-around;
+      align-items: center; 
+}
+.commentbox .fa-thumbs-up{
+     font-size: 20px;
+     color: rgb(0, 117, 250);
+     cursor: pointer;
+   
+}
+.commentbox .fa-heart{
+     font-size: 20px;
+     color: rgba(245, 2, 116, 0.993);
+     cursor: pointer;
+}
+.commentbox .fa-share{
+     font-size: 20px;
+     color: rgba(192, 0, 209, 0.993);
+     cursor: pointer;
+}
+.commentbox  small{
+      font-size: 19px;
+      font-weight: 500;
+}
+.mypostsection{
+      background-color: white
+      ;
+      border-radius: 9px;
+      padding: 10px;
+}
+.ponserbox img{
+      width: 100px;
+      height: 100px;
+      border-radius: 10px;
+      margin-right:10px ;
+}
+.posssercection h5{
+      font-size: 25px;
+      font-weight: 500;
+
+      margin: 8px 0;
+      color: black;
+}
+.ponserbox{
+     margin: 10px 0;
+     display: flex;
+     align-items: center;
+}
+.pomsertext h4{
+      font-size: 17px;
+      color: black;
+}
+.pagepofile{
+      display: flex;
+      justify-content: space-between;
+
+}
+.pagepofile h5{
+      color: black;
+}
+.pagepofile svg{
+      width: 27px;
+      height: 27px;
+      color: black;
+}
+.pagepofile h6{
+      color: rgb(1, 141, 255);
+      cursor: pointer;
+      font-weight: 500;
+}
+.requastbox{
+      display: flex;
+}
+
+.requastbox img{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+}
+.namerequast{
+      display: flex;
+       justify-content: space-between;
+
+}
+.namerequast h4{
+     font-size: 18px;
+} 
+.requasttext {
+     margin-top: 10px;
+     margin-left: 10px;
+}
+.namerequast p{
+      margin-left: 30px;
+}
+.mutualfrinds {
+      position: relative;
+}
+.mutualfrinds img{ 
+ width: 25px;
+ height: 25px;
+ border-radius: 50%;
+}
+.mutualfrinds .mutualto{
+      position: relative;
+      right: 15px;
+}
+.mutualfrinds  small{
+     position: relative;
+     right: 15px;
+}
+.accsepbuttton{
+      display: flex;
+      justify-content: space-around;
+}
+.accsepbuttton button{
+      border: none;
+      outline: none;
+      width: 100%;
+      font-size: 20px;
+      border-radius: 7px;
+      margin:  5px;
+      font-weight: 400;
+      color: black;
+      padding: 2px 5px;
+      background-color: rgb(219, 226, 228);
+}
+.accsepbuttton .btn1{
+        background-color: rgb(4, 111, 211);
+        color: white;
+}
+
+/* contacat sectiin */
+
+.contacticon{
+       display: flex;
+      
+       justify-content: space-between;
+}
+.contacticon p{
+       font-size: 19px;
+        font-weight: 500;
+        opacity: 0.9;
+        cursor: pointer;
+        color: black;
+}
+.iconcontact i{
+        font-size: 18px;
+        cursor: pointer;
+        padding: 8px;
+      
+}
+.conracatt{
+       display: flex;
+       position: relative;
+       margin: 10px 0;
+       align-items: center;
+}
+.conracatt img{
+       position: relative;
+       width: 40px;
+       height: 40px;
+       border: 5px solid #FFFFFF;
+       border-radius: 50%;
+ 
+}
+.iconbxservice{
+       position: relative;
+}
+.conracatt p{
+      color: black;
+   font-size: 18px  
+   ;
+   font-weight: 500;
+   margin-bottom: 2px;
+   margin-left: 5px;  
+}
+
+.di{
+       position: absolute;
+       width: 8px;
+       height: 8px;
+       top: 25px;
+       left: 30px;
+       border-radius: 50%;
+       background-color:rgb(1, 172, 1);
+}
+.videposection{
+ display: none;    
+}
+.videposectionbar{
+       display: block !important;
+}
+
+
+
+
+/* videopaly */
+
+
+
+/* add frind section */
+
+.addfrind{
+       max-width: 200px;
+       background: #ffffff;
+       height: 320px;
+       padding: 10px ;
+       position: relative;
+        border-radius: 10px;
+}
+.addfrind img{
+      position: relative;
+       width: 100%; border-radius: 10px 10px 0 0;
+}
+.fa-x{
+       position: absolute;
+       top: 5%;
+       right: 10%;
+      padding: 10px;
+      cursor: pointer;
+       color: white;
+       background: rgba(14, 6, 6, 0.815);
+       border-radius:50% ;
+}
+.mutualfrirend{
+        display: flex;
+        align-items: center;
+}
+.mutualfrirend img{
+       
+        width: 28px;
+       height: 28px;
+       border-radius:50% ;
+}
+.addfrind p{
+       font-size: 18px;
+       margin: 8px 0;
+       color: black;
+       font-weight:500 ;
+}
+.mutualfrirend p{
+ margin-left: 10px;
+  font-size: 14px;
+
+
+}
+.addfrind .addbutttn{
+       outline: none;
+       border: none;
+         padding: 8px 10px;
+  text-align: center;
+    border-radius: 8px;
+     
+      
+       background: rgba(71, 73, 73, 0.301);
+transition: 0.5s;
+}
+.addfrind .addbutttn:hover{
+       background: rgba(79, 138, 37, 0.575);
+}
+.addfrind .addbutttn i{
+      font-size: 20px;
+        color: rgb(0, 96, 240);
+}
+.addfrind .addbutttn a{
+      font-size: 19px;
+      font-weight: 500;
+      text-decoration: none;
+        color: rgb(0, 96, 240);
+}
+
+
+/* massenger secriin */
+
+.headbaer{
+   
+ padding: 10px;
+    
+        background-color: rgb(241, 241, 241);
+  width: 380px; overflow: scroll;
+  z-index: 15;
+   top: 9%;
+   right: 0; position: fixed;
+ height: 90vh; 
+ display: none;
+}
+.headbaerer{
+
+   display: block;
+}
+
+.chatssection{
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+}
+.chatssection h2{
+       font-size: 25px;
+       font-weight:500 ;
+       color: black;
+       width: 120px;
+}
+.chatssection i, svg{
+  cursor: pointer;
+      
+  
+  
+}
+.chatsdarch{
+width: 100%;
+position: relative;
+margin: 10px 0;  
+
+}
+.chatsdarch input{
+       position: relative;
+       width: 100%;
+       padding: 5px;
+       border-radius: 10px;
+       background: rgba(77, 73, 73, 0.199);
+       border: none;
+       outline: none;
+       text-align: center;
+       
+       font-size: 18px;
+       color: rgb(0, 0, 0);
+}
+.chatsdarch  i{
+       position: absolute;
+       left: 0;
+       bottom: 8px;
+       margin-left: 10px;
+}
+  
+ 
+.chatimgtext{ 
+       display: flex;
+  justify-content: center;position: relative;
+}
+.chatimgtext img{
+       width: 50px !important;
+       height: 50px !important;
+       border-radius: 50%;
+       position: relative;
+}
+.chatimgtext h5{
+       font-size: 17px;
+       
+}
+.accticemass{
+ position: absolute;
+ width: 10px;
+ height: 10px;
+ border-radius: 50%;
+ left: 40px;
+ bottom: 10px;
+ background: rgb(0, 175, 0);
+}
+.chattext{
+       margin-left: 10px;
+}
+.chattext p{
+       line-height: 10px;
+}
+.chartcount{
+      margin: 18px 0;
+       display: flex;
+       cursor: pointer;
+       padding: 5px 10px;
+       border-radius: 10px;
+       justify-content: space-between;
+       align-items: center;
+       transition: 0.5s;
+}.chartcount svg{
+      width: 30px;
+      height: 30px;
+      padding: 5px;
+       border-radius: 50%;
+        
+       background-color: rgba(240, 0, 240, 0.185)
+       
+}
+.chartcount:hover{
+       background: rgba(34, 32, 32, 0.164);
+}
+.chartcount img{
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+}
+
+.chatcolor{
+       background: red;
+}
+
+.massengercection{
+       position: fixed;
+      bottom: 0;
+      width: 400px;
+      height: 440px;
+      overflow-y: scroll;
+      background: rgb(255, 255, 255);
+      z-index: 25;
+ border-radius: 10px !important;
+     right: 20%;
+      
+      border-radius: 8px;
+      display: none;
+}
+.massengercectionr{
+ border-radius: 10px !important;
+ display: block;
+}
+/* .massengercectionmain{
+      display: none;
+} */
+.massengercectionma{
+      display: block;
+}
+.massengercectionm{
+      display: none;
+}
+/* chatssectionr secton */
+.massengercectionmain{
+   
+}
+.chatssectionr{
+       width: 385px;
+       background: #ffffff;
+       height:50px;
+     position: fixed;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 6px ;
+}
+.divtext{
+       display: flex;
+       
+       justify-content: center;
+       align-items: center;
+}
+.divtext img{
+       width: 40px;
+       height: 40px;
+       border-radius:50%;
+
+}
+.divtext p{
+      font-size: 17px;
+       margin-bottom: 5px;
+       margin-left: 8px;
+       font-weight: 600;
+}
+.divicon i{
+cursor:pointer;
+      margin: 0  15px;
+font-size: 20px;
+color: black;
+}
+.buttomtextfg{
+      position: fixed;
+      bottom: 0;
+       padding: 10px;
+       background-color: #ffffff;
+       z-index: 25px;
+       display: flex;box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+       justify-items: center;
+       justify-content: space-between;
+}
+.buttomtextfg i{
+      cursor: pointer;
+       margin: 8px ;
+       z-index: 100;
+       color: rgb(20, 20, 173);
+       font-size: 20px;
+}
+.fa-arrow-right{
+      cursor: pointer;
+      z-index: 200;
+}
+.buttomtextfg .fa-plus{
+      background: blue;
+      color: white;
+      font-size: 15px;
+      padding: 2px;
+      border-radius: 50%;
+}
+.divcontsst{
+       width: 370px;
+       height: 400px;
+       padding: 10px;
+     
+       font-weight: 500;
+       color: black;
+     
+}
+.divcontsst p{
+      font-size: 20px;
+      padding: 10px;
+      margin-top: 50px;
+      border-radius: 18px;
+      background-color: rgba(48, 44, 44, 0.349);
+}
+.buttomtextfg input{
+       padding: 5px;
+       outline: none;
+       color: black !important;
+       border: none;
+       border-radius: 10px;
+       background: rgba(95, 83, 83, 0.192);
+}
+.chart{
+      display: block;
+}
+
